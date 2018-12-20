@@ -1,0 +1,683 @@
+// top
+#top{
+    width: 100%;height: 48px;background: #333;font-size: 14px;color: #e7e7e7;position: relative;
+    .juz{
+        width: 1080px;height: 48px;margin: 0 auto;
+        .fl{float: right;
+            .user{height: 48px;width: 86px;float: left;line-height: 48px;
+                a{color: #e7e7e7;margin-left: 2px;}
+            }
+            .suxian{height: 16px;width: 1px;float: left;border-right: #666 solid 1px;vertical-align: middle;margin-top: 17px;}
+            .help{height: 48px;width: 58px;float: left;padding: 0 14px;line-height: 48px;
+                a{color: #e7e7e7;}
+            }
+            .down{height: 48px;width: 118px;float: left;line-height: 48px;position: relative;
+                .myicon{position: absolute;width: 30px;height: 30px;left: 0;top: 9px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -1016px;}
+                a{color: #e7e7e7;margin-left: 38px;}
+            }
+        }
+    }
+}
+
+// header
+#header{width:100%;height: 51px;position: relative;padding-top:20px;margin-bottom: 5px;background: #fff;
+    .juz{
+        width: 1080px;height: 51px;margin: 0 auto;position: relative;
+        .logo{float: left;width: 123px;height: 51px;background: url(../images/logo.d1484e61.png);background-size: 100%;}
+        .tablist{float: left;width: 420px;margin-left:140px;
+            li{float: left;margin-right: 32px;height: 51px;line-height: 51px;font-size: 18px;
+                a{color: #666;}
+            }
+
+        }
+        .search{width: 296px;float: right;margin-right:40px;position: relative;
+            .cont{width: 282px;border-bottom: 1px solid #666;height: 42px;position: relative;
+                .myicon{position: absolute;width: 30px;height: 30px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -1458px;display: block;top: 10px;left: -4px;}
+                .seform{width: 245px;height: 28px;position: absolute;left: 40px;padding-top: 14px;
+                    input{border: none;font-size: 14px;outline: 0;color: #666;}
+                }
+            }
+            .xiala{
+                position: absolute;z-index: 10;background-color:#fff;width:282px;
+                li{
+                    text-align: center;height: 30px;color:#333;font-size: 14px;line-height:30px;cursor: pointer;
+                    &:hover{
+                        background-color: #845f3f;color: #fff;
+                    }
+                }
+            }
+        }
+        .car a{cursor:pointer;width: 30px;height: 30px;position: absolute;right: 6px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -948px;display: inline-block;top: 18px}
+    }
+}
+// banner
+#banner{width: 1080px;height: 358px;margin: 0 auto;
+    .navcont{width: 221px;height: 338px;float: left;padding: 10px 0;background-color: #845f3f;position: relative;
+        .navlist{overflow: hidden;font-size:14px;
+            .listitem{width: 165px;padding: 0 30px;height: 37px;line-height: 37px;cursor:pointer;
+                &:hover{
+                    background-color: chocolate;
+                }
+                span{color: #fff;
+                    a{color: #fff;
+                        &:hover{
+                            color: greenyellow;
+                        }
+                    }
+                }
+            }
+        }
+        .listdetail{display:none;position: absolute;top: 0;left: 221px;width: 797px;height: 316px;background-color: #fff;border: 1px solid #eee;padding: 20px 30px;overflow: auto;z-index:10;
+            .degroup{
+                margin-bottom: 15px;
+                .title{color: #333;}
+                .titlis{
+                    li{width: 195px;height: 40px;float: left;line-height: 40px;margin-bottom: 30px;cursor:pointer;
+                        img{width: 40px;height: 40px;
+                        margin-right: 10px;vertical-align: middle;border: none;
+                        }
+                        span{color: #666;}
+                    }
+                }
+            }
+        }
+    }
+    .banbox{width: 859px;float: left;height: 358px;position: relative;
+        // background: url(../images/img.jpg);background-size: 100%;
+        .swiper-container{
+            .swiper-wrapper{
+                img{width: 859px;height: 358px;}
+            }
+            .swiper-button-prev{
+                
+                width:38px;
+                height: 38px;
+                background: url(../images/yp-icons.2bf57ccf.png) no-repeat;
+                background-position-y: -1924px;
+                &:hover{
+                    background-position-y: -1798px;
+                }
+            }
+            .swiper-button-next{
+                width:38px;
+                height: 38px;
+                background: url(../images/yp-icons.2bf57ccf.png) no-repeat;
+                background-position-y: -1840px;
+                &:hover{
+                    background-position-y: -1882px;
+                }
+            }
+            .swiper-pagination{
+                width: 100%;position: absolute;bottom: 10px;left: 0;
+                .swiper-pagination-bullet{
+                    margin: 0 6px;width: 8px;height: 8px;display: inline-block;border-radius: 500px;border: 1px solid #cecece;background: #fff;
+                    
+                }
+                .swiper-pagination-bullet-active{
+                    box-shadow: 0 0 0 4px #ccc;
+                    background: #a7936e;
+                    border-radius: 500px;
+                    border: none;
+                }
+            }
+        }
+        
+    }
+}
+// section
+#section{width: 100%;
+    .juz{width: 1080px;height: 189px;margin: 0 auto;
+        .scm{
+            padding-top: 30px;border-bottom: 1px solid #e7e7e7;height: 189px;box-sizing: border-box;
+            ul{padding-bottom: 10px;height: 148px;display: flex;justify-content:space-around;
+                li{width: 130px;height: 120px;
+                    .cont{
+                        img{width: 80px;height: 80px;vertical-align: middle;border: none;display: block;margin-top: 20px;margin-bottom: 10px;}
+                        .title{width: 130px;margin-top: 30px;color: #666;text-indent: 16px;}
+                    }
+                }
+            }
+        }
+    }
+}
+// main
+#main{
+    // recommed
+    .recommend{margin-top: 35px;
+        .rcont{width: 1080px;margin: 0 auto;
+            .rc-t{
+                width: 1080px;height: 37px;margin-bottom: 20px;
+                .rctit{color: #333;font-size: 28px;font-weight: 400;
+                span{margin-left: 12px;font-size: 14px;color: #999;}
+                }
+            }
+            .rc-b{
+                display: flex;width: 1080px;height: 230px;
+                .rc-b-list{
+                    margin-left: 5px;
+                    width: 266px;height: 230px;background-color: rgb(248,248,248);position: relative;
+                    .rc-t{height: 24px;line-height: 24px;color: rgb(219,93,65);font-size: 20px;margin-bottom: 0px;margin-top: 23px;margin-left: 15px;}
+                    .rc-b{height: 20px;line-height: 20px;font-size: 16px;margin-top: 8px;color: rgb(153,153,153);margin-left: 15px;}
+                    img{position: absolute;width: 175px;height: 117px;right: 45px;margin-top: 32px;bottom:10px;}
+                }
+            }
+        }
+    }
+    // zhouchou
+    .zhonchou{
+        margin-top: 35px;
+        .zccont{width: 1080px;height: 302px;margin: 0 auto;
+            
+            .zct-t{
+                position: relative;margin-bottom: 20px;
+                .tit{
+                    color: #333;font-size: 28px;font-weight: 400;
+                    span{color: #999;margin-left: 12px;font-size: 14px;}
+                }
+                .ico{
+                   
+                    position: absolute;right: 0;top: 6px;height: 30px;color: #999;
+                    .icon-w{position: relative;bottom: 9px;font-size: 14px;}
+                    a{display: inline-block;width: 30px;height: 30px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -1118px;}
+                }
+            }
+            
+            .zct-b{
+                display: flex;
+                width: 1080px;
+                .zcbl{box-sizing: border-box;
+                    width: 537px;height: 245px;background-color:#eee;
+                    margin-right: 5px;position: relative;
+                    .zcbl-t{background-color:#f9f3e9;
+                        box-sizing: border-box;
+                        padding: 30px 0 0 20px;
+                        width: 537px;height: 210px;position: relative;
+                        .zcbl-t-a{height: 20px;line-height: 20px;font-size: 20px;color: #333;width: 250px;}
+                        .zcbl-t-b{width: 250px;height: 20px;line-height: 20px;font-size: 16px;margin-top:8px;color: #999}
+                        .zcbl-t-c{height: 28px;line-height: 28px;margin-top: 16px;font-size: 24px;color: #a92112;
+                            .moy{font-size: 15px;margin-right: 7px;}
+                        }
+                    }
+                    .zcbl-tp{
+                        position: absolute;width: 130px;height: 130px;top: 70px;right:5px;
+                        img{
+                            width: 130px;height: 130px;vertical-align: middle;
+                        }
+                    }
+                    .zcbl-b{
+                        width: 100%;height: 35px;background:#fff;
+                        .caixian{
+                            height: 3px;background: url(../images/caixian.jpg) no-repeat center;
+                        }
+                        .cx-b{
+                            margin-top: 10px;
+                            .cxb-a{float: left;color: #999;font-size: 15px;margin-left: 20px;
+                                .cxb-aa{
+                                    margin-right: 6px;color: #a92112;font-size: 18px;
+                                }
+                            }
+                            .cxb-b{float: left;text-align: center;
+                                height: 18px;
+                                padding-top: 2px;
+                                padding-bottom: 2px;
+                                overflow: hidden;
+                                display: inline-block;background-color: rgb(255, 67, 2);    border-radius: 2px;padding: 0 6px;
+                                color: #fff;
+                                font-size: 13px;
+                                line-height: 18px;}
+                            .cx-r{
+                                float: right;margin-right: 15px;color: #a92112;font-size: 18px;
+                                .cxb-c{color: #a92112;font-size: 18px;}
+                                .cxb-d{font-size: 11px;}
+                            }
+                           
+                            
+                            
+                        }
+                    }
+                }
+                .zcbl-a{
+                    width: 266px;height: 245px;background-color:#eee;
+                    margin-right: 5px;position: relative;
+                    .zcbl-t{
+                        box-sizing: border-box;
+                        padding: 30px 0 0 20px;
+                        width: 537px;height: 210px;position: relative;
+                        .zcbl-t-a{height: 20px;line-height: 20px;font-size: 20px;color: #333;width: 250px;}
+                        .zcbl-t-b{height: 20px;line-height: 20px;font-size: 16px;margin-top:8px;color: #999;width: 250px;}
+                        .zcbl-t-c{height: 28px;line-height: 28px;margin-top: 16px;font-size: 24px;color: #a92112;
+                            .moy{font-size: 15px;margin-right: 7px;}
+                        }
+                    }
+
+                    .zcbl-tp{
+                        position: absolute;width: 130px;height: 130px;top: 70px;right:5px;
+                        img{
+                            width: 130px;height: 130px;vertical-align: middle;
+                        }
+                    }
+
+                    .zcbl-b{
+                        width: 100%;height: 35px;background:#fff;
+                        .caixian{
+                            height: 3px;background: url(../images/caixian.jpg) no-repeat center;
+                        }
+                        .cx-b{
+                            margin-top: 10px;
+                            .cxb-a{float: left;color: #999;font-size: 15px;margin-left: 20px;
+                                .cxb-aa{
+                                    margin-right: 6px;color: #a92112;font-size: 18px;
+                                }
+                            }
+                            .cxb-b{float: left;text-align: center;
+                                height: 18px;
+                                padding-top: 2px;
+                                padding-bottom: 2px;
+                                overflow: hidden;
+                                display: inline-block;background-color: rgb(255, 67, 2);    border-radius: 2px;padding: 0 6px;
+                                color: #fff;
+                                font-size: 13px;
+                                line-height: 18px;}
+                            .cx-r{
+                                float: right;margin-right: 15px;color: #a92112;font-size: 18px;
+                                .cxb-c{color: #a92112;font-size: 18px;}
+                                .cxb-d{font-size: 11px;}
+                            }
+                           
+                            
+                            
+                        }
+                    }
+                }
+                .zcbl-b{
+                    width: 266px;height: 245px;background-color:#eee;
+                    margin-right: 5px;position: relative;
+                    .zcbl-t{
+                        box-sizing: border-box;
+                        padding: 30px 0 0 20px;
+                        width: 537px;height: 210px;position: relative;
+                        .zcbl-t-a{height: 20px;line-height: 20px;font-size: 20px;color: #333;width: 250px;}
+                        .zcbl-t-b{height: 20px;line-height: 20px;font-size: 16px;margin-top:8px;color: #999;width: 250px;}
+                        .zcbl-t-c{height: 28px;line-height: 28px;margin-top: 16px;font-size: 24px;color: #a92112;
+                            .moy{font-size: 15px;margin-right: 7px;}
+                        }
+                    }
+
+                    .zcbl-tp{
+                        position: absolute;width: 130px;height: 130px;top: 70px;right:5px;
+                        img{
+                            width: 130px;height: 130px;vertical-align: middle;
+                        }
+                    }
+
+                    .zcbl-b{
+                        width: 100%;height: 35px;background:#fff;
+                        .caixian{
+                            height: 3px;background: url(../images/caixian.jpg) no-repeat center;
+                        }
+                        .cx-b{
+                            margin-top: 10px;
+                            .cxb-a{float: left;color: #999;font-size: 15px;margin-left: 20px;
+                                .cxb-aa{
+                                    margin-right: 6px;color: #a92112;font-size: 18px;
+                                }
+                            }
+                            .cxb-b{float: left;text-align: center;
+                                height: 18px;
+                                padding-top: 2px;
+                                padding-bottom: 2px;
+                                overflow: hidden;
+                                display: inline-block;background-color: rgb(255, 67, 2);    border-radius: 2px;padding: 0 6px;
+                                color: #fff;
+                                font-size: 13px;
+                                line-height: 18px;}
+                            .cx-r{
+                                float: right;margin-right: 15px;color: #a92112;font-size: 18px;
+                                .cxb-c{color: #a92112;font-size: 18px;}
+                                .cxb-d{font-size: 11px;}
+                            }
+                           
+                            
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // shangp
+    .sp{
+        .spcont{
+            width: 1080px;margin: 0 auto;
+            .sp-t{
+                height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+                h3{
+                    height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                    span{font-size: 14px;color: #666;margin-left: 8px;}
+                }
+                .mor{
+                    position: absolute;right: 0;top: 74px;
+                    .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                    .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+                }
+            }
+            .sp-b{
+                width: 1080px;display:flex;overflow: hidden;
+                .spb-lis{
+                    width: 266px;height: 370px;margin-right:8px;
+                    .spb-t{
+                        margin-bottom: 9px;
+                        width: 266px;height: 266px;
+                        img{width: 266px;height: 266px;border: none;}
+                    }
+                    .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                    .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                    .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+                }
+            }
+        }
+    }
+    .sp-rm{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-jj{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-jd{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-sj{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-zn{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-fs{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-yy{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-cc{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+    .sp-bjb{.spcont{
+        width: 1080px;margin: 0 auto;
+        .sp-t{
+            height: 117px;padding-top: 43px;box-sizing: border-box;position: relative;
+            h3{
+                height: 74px;font-size: 28px;line-height: 74px;color: #333;font-weight: 400;
+                span{font-size: 14px;color: #666;margin-left: 8px;}
+            }
+            .mor{
+                position: absolute;right: 0;top: 74px;
+                .mori{font-size: 14px;position: relative;bottom: 9px;color: #999;}
+                .myicon{background-image: url(../images/yp-icons.2bf57ccf.png);width: 30px;height: 30px;background-position: 0 -1118px;display: inline-block;}
+            }
+        }
+        .sp-b{
+            width: 1080px;display:flex;overflow: hidden;
+            .spb-lis{
+                width: 266px;height: 370px;margin-right:8px;
+                .spb-t{
+                    margin-bottom: 9px;
+                    width: 266px;height: 266px;
+                    img{width: 266px;height: 266px;border: none;}
+                }
+                .tit-a{height: 31px;line-height: 31px;font-size: 18px;text-align: center;color: #333;}
+                .tit-b{height: 28px;line-height: 28px;font-size: 12px;text-align: center;color: #666;}
+                .tit-c{height: 36px;line-height: 36px;font-size: 18px;text-align: center;color: #b12112;}
+            }
+        }
+    }}
+}
+
+// foot
+#foot{
+    width: 100%;
+    padding-top: 65px;
+    .fcont{
+        border-top: 1px solid #e7e7e7;height: 135px;
+        .fbox{
+            width: 1080px;height: 135px;margin: 0 auto;
+            .fb-l{
+                float: left;
+                .fbl-logo{
+                    background: url(../images/ftlogo.png) no-repeat center;width: 116px;height: 31px;margin-left: 5px;margin-top: 53px;float: left;
+                }
+                .fbl-tit{
+                    font-size: 12px;line-height: 135px;color: #666;margin-left: 29px;float: left;
+                }
+            }
+            .fb-c{float: left;font-size: 12px;line-height: 24px;color: #666;margin-top: 45px;margin-left: 80px;
+                a{margin-left: 5px;}
+                .te{color: rgb(132, 95, 63);}
+            }
+            .fb-r{
+                width: 99px;height: 36px;margin-top: 49px;float: right;background: url(../images/ftlogo2.png) no-repeat center;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

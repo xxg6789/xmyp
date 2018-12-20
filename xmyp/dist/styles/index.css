@@ -1,0 +1,1342 @@
+#top {
+  width: 100%;
+  height: 48px;
+  background: #333;
+  font-size: 14px;
+  color: #e7e7e7;
+  position: relative; }
+  #top .juz {
+    width: 1080px;
+    height: 48px;
+    margin: 0 auto; }
+    #top .juz .fl {
+      float: right; }
+      #top .juz .fl .user {
+        height: 48px;
+        width: 86px;
+        float: left;
+        line-height: 48px; }
+        #top .juz .fl .user a {
+          color: #e7e7e7;
+          margin-left: 2px; }
+      #top .juz .fl .suxian {
+        height: 16px;
+        width: 1px;
+        float: left;
+        border-right: #666 solid 1px;
+        vertical-align: middle;
+        margin-top: 17px; }
+      #top .juz .fl .help {
+        height: 48px;
+        width: 58px;
+        float: left;
+        padding: 0 14px;
+        line-height: 48px; }
+        #top .juz .fl .help a {
+          color: #e7e7e7; }
+      #top .juz .fl .down {
+        height: 48px;
+        width: 118px;
+        float: left;
+        line-height: 48px;
+        position: relative; }
+        #top .juz .fl .down .myicon {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          left: 0;
+          top: 9px;
+          background-image: url(../images/yp-icons.2bf57ccf.png);
+          background-position: 0 -1016px; }
+        #top .juz .fl .down a {
+          color: #e7e7e7;
+          margin-left: 38px; }
+
+#header {
+  width: 100%;
+  height: 51px;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  background: #fff; }
+  #header .juz {
+    width: 1080px;
+    height: 51px;
+    margin: 0 auto;
+    position: relative; }
+    #header .juz .logo {
+      float: left;
+      width: 123px;
+      height: 51px;
+      background: url(../images/logo.d1484e61.png);
+      background-size: 100%; }
+    #header .juz .tablist {
+      float: left;
+      width: 420px;
+      margin-left: 140px; }
+      #header .juz .tablist li {
+        float: left;
+        margin-right: 32px;
+        height: 51px;
+        line-height: 51px;
+        font-size: 18px; }
+        #header .juz .tablist li a {
+          color: #666; }
+    #header .juz .search {
+      width: 296px;
+      float: right;
+      margin-right: 40px;
+      position: relative; }
+      #header .juz .search .cont {
+        width: 282px;
+        border-bottom: 1px solid #666;
+        height: 42px;
+        position: relative; }
+        #header .juz .search .cont .myicon {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          background-image: url(../images/yp-icons.2bf57ccf.png);
+          background-position: 0 -1458px;
+          display: block;
+          top: 10px;
+          left: -4px; }
+        #header .juz .search .cont .seform {
+          width: 245px;
+          height: 28px;
+          position: absolute;
+          left: 40px;
+          padding-top: 14px; }
+          #header .juz .search .cont .seform input {
+            border: none;
+            font-size: 14px;
+            outline: 0;
+            color: #666; }
+      #header .juz .search .xiala {
+        position: absolute;
+        z-index: 10;
+        background-color: #fff;
+        width: 282px; }
+        #header .juz .search .xiala li {
+          text-align: center;
+          height: 30px;
+          color: #333;
+          font-size: 14px;
+          line-height: 30px;
+          cursor: pointer; }
+          #header .juz .search .xiala li:hover {
+            background-color: #845f3f;
+            color: #fff; }
+    #header .juz .car a {
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 6px;
+      background-image: url(../images/yp-icons.2bf57ccf.png);
+      background-position: 0 -948px;
+      display: inline-block;
+      top: 18px; }
+
+#banner {
+  width: 1080px;
+  height: 358px;
+  margin: 0 auto; }
+  #banner .navcont {
+    width: 221px;
+    height: 338px;
+    float: left;
+    padding: 10px 0;
+    background-color: #845f3f;
+    position: relative; }
+    #banner .navcont .navlist {
+      overflow: hidden;
+      font-size: 14px; }
+      #banner .navcont .navlist .listitem {
+        width: 165px;
+        padding: 0 30px;
+        height: 37px;
+        line-height: 37px;
+        cursor: pointer; }
+        #banner .navcont .navlist .listitem:hover {
+          background-color: chocolate; }
+        #banner .navcont .navlist .listitem span {
+          color: #fff; }
+          #banner .navcont .navlist .listitem span a {
+            color: #fff; }
+            #banner .navcont .navlist .listitem span a:hover {
+              color: greenyellow; }
+    #banner .navcont .listdetail {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 221px;
+      width: 797px;
+      height: 316px;
+      background-color: #fff;
+      border: 1px solid #eee;
+      padding: 20px 30px;
+      overflow: auto;
+      z-index: 10; }
+      #banner .navcont .listdetail .degroup {
+        margin-bottom: 15px; }
+        #banner .navcont .listdetail .degroup .title {
+          color: #333; }
+        #banner .navcont .listdetail .degroup .titlis li {
+          width: 195px;
+          height: 40px;
+          float: left;
+          line-height: 40px;
+          margin-bottom: 30px;
+          cursor: pointer; }
+          #banner .navcont .listdetail .degroup .titlis li img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            vertical-align: middle;
+            border: none; }
+          #banner .navcont .listdetail .degroup .titlis li span {
+            color: #666; }
+  #banner .banbox {
+    width: 859px;
+    float: left;
+    height: 358px;
+    position: relative; }
+    #banner .banbox .swiper-container .swiper-wrapper img {
+      width: 859px;
+      height: 358px; }
+    #banner .banbox .swiper-container .swiper-button-prev {
+      width: 38px;
+      height: 38px;
+      background: url(../images/yp-icons.2bf57ccf.png) no-repeat;
+      background-position-y: -1924px; }
+      #banner .banbox .swiper-container .swiper-button-prev:hover {
+        background-position-y: -1798px; }
+    #banner .banbox .swiper-container .swiper-button-next {
+      width: 38px;
+      height: 38px;
+      background: url(../images/yp-icons.2bf57ccf.png) no-repeat;
+      background-position-y: -1840px; }
+      #banner .banbox .swiper-container .swiper-button-next:hover {
+        background-position-y: -1882px; }
+    #banner .banbox .swiper-container .swiper-pagination {
+      width: 100%;
+      position: absolute;
+      bottom: 10px;
+      left: 0; }
+      #banner .banbox .swiper-container .swiper-pagination .swiper-pagination-bullet {
+        margin: 0 6px;
+        width: 8px;
+        height: 8px;
+        display: inline-block;
+        border-radius: 500px;
+        border: 1px solid #cecece;
+        background: #fff; }
+      #banner .banbox .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+        box-shadow: 0 0 0 4px #ccc;
+        background: #a7936e;
+        border-radius: 500px;
+        border: none; }
+
+#section {
+  width: 100%; }
+  #section .juz {
+    width: 1080px;
+    height: 189px;
+    margin: 0 auto; }
+    #section .juz .scm {
+      padding-top: 30px;
+      border-bottom: 1px solid #e7e7e7;
+      height: 189px;
+      box-sizing: border-box; }
+      #section .juz .scm ul {
+        padding-bottom: 10px;
+        height: 148px;
+        display: flex;
+        justify-content: space-around; }
+        #section .juz .scm ul li {
+          width: 130px;
+          height: 120px; }
+          #section .juz .scm ul li .cont img {
+            width: 80px;
+            height: 80px;
+            vertical-align: middle;
+            border: none;
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 10px; }
+          #section .juz .scm ul li .cont .title {
+            width: 130px;
+            margin-top: 30px;
+            color: #666;
+            text-indent: 16px; }
+
+#main .recommend {
+  margin-top: 35px; }
+  #main .recommend .rcont {
+    width: 1080px;
+    margin: 0 auto; }
+    #main .recommend .rcont .rc-t {
+      width: 1080px;
+      height: 37px;
+      margin-bottom: 20px; }
+      #main .recommend .rcont .rc-t .rctit {
+        color: #333;
+        font-size: 28px;
+        font-weight: 400; }
+        #main .recommend .rcont .rc-t .rctit span {
+          margin-left: 12px;
+          font-size: 14px;
+          color: #999; }
+    #main .recommend .rcont .rc-b {
+      display: flex;
+      width: 1080px;
+      height: 230px; }
+      #main .recommend .rcont .rc-b .rc-b-list {
+        margin-left: 5px;
+        width: 266px;
+        height: 230px;
+        background-color: #f8f8f8;
+        position: relative; }
+        #main .recommend .rcont .rc-b .rc-b-list .rc-t {
+          height: 24px;
+          line-height: 24px;
+          color: #db5d41;
+          font-size: 20px;
+          margin-bottom: 0px;
+          margin-top: 23px;
+          margin-left: 15px; }
+        #main .recommend .rcont .rc-b .rc-b-list .rc-b {
+          height: 20px;
+          line-height: 20px;
+          font-size: 16px;
+          margin-top: 8px;
+          color: #999999;
+          margin-left: 15px; }
+        #main .recommend .rcont .rc-b .rc-b-list img {
+          position: absolute;
+          width: 175px;
+          height: 117px;
+          right: 45px;
+          margin-top: 32px;
+          bottom: 10px; }
+
+#main .zhonchou {
+  margin-top: 35px; }
+  #main .zhonchou .zccont {
+    width: 1080px;
+    height: 302px;
+    margin: 0 auto; }
+    #main .zhonchou .zccont .zct-t {
+      position: relative;
+      margin-bottom: 20px; }
+      #main .zhonchou .zccont .zct-t .tit {
+        color: #333;
+        font-size: 28px;
+        font-weight: 400; }
+        #main .zhonchou .zccont .zct-t .tit span {
+          color: #999;
+          margin-left: 12px;
+          font-size: 14px; }
+      #main .zhonchou .zccont .zct-t .ico {
+        position: absolute;
+        right: 0;
+        top: 6px;
+        height: 30px;
+        color: #999; }
+        #main .zhonchou .zccont .zct-t .ico .icon-w {
+          position: relative;
+          bottom: 9px;
+          font-size: 14px; }
+        #main .zhonchou .zccont .zct-t .ico a {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          background-image: url(../images/yp-icons.2bf57ccf.png);
+          background-position: 0 -1118px; }
+    #main .zhonchou .zccont .zct-b {
+      display: flex;
+      width: 1080px; }
+      #main .zhonchou .zccont .zct-b .zcbl {
+        box-sizing: border-box;
+        width: 537px;
+        height: 245px;
+        background-color: #eee;
+        margin-right: 5px;
+        position: relative; }
+        #main .zhonchou .zccont .zct-b .zcbl .zcbl-t {
+          background-color: #f9f3e9;
+          box-sizing: border-box;
+          padding: 30px 0 0 20px;
+          width: 537px;
+          height: 210px;
+          position: relative; }
+          #main .zhonchou .zccont .zct-b .zcbl .zcbl-t .zcbl-t-a {
+            height: 20px;
+            line-height: 20px;
+            font-size: 20px;
+            color: #333;
+            width: 250px; }
+          #main .zhonchou .zccont .zct-b .zcbl .zcbl-t .zcbl-t-b {
+            width: 250px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 16px;
+            margin-top: 8px;
+            color: #999; }
+          #main .zhonchou .zccont .zct-b .zcbl .zcbl-t .zcbl-t-c {
+            height: 28px;
+            line-height: 28px;
+            margin-top: 16px;
+            font-size: 24px;
+            color: #a92112; }
+            #main .zhonchou .zccont .zct-b .zcbl .zcbl-t .zcbl-t-c .moy {
+              font-size: 15px;
+              margin-right: 7px; }
+        #main .zhonchou .zccont .zct-b .zcbl .zcbl-tp {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          top: 70px;
+          right: 5px; }
+          #main .zhonchou .zccont .zct-b .zcbl .zcbl-tp img {
+            width: 130px;
+            height: 130px;
+            vertical-align: middle; }
+        #main .zhonchou .zccont .zct-b .zcbl .zcbl-b {
+          width: 100%;
+          height: 35px;
+          background: #fff; }
+          #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .caixian {
+            height: 3px;
+            background: url(../images/caixian.jpg) no-repeat center; }
+          #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b {
+            margin-top: 10px; }
+            #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b .cxb-a {
+              float: left;
+              color: #999;
+              font-size: 15px;
+              margin-left: 20px; }
+              #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b .cxb-a .cxb-aa {
+                margin-right: 6px;
+                color: #a92112;
+                font-size: 18px; }
+            #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b .cxb-b {
+              float: left;
+              text-align: center;
+              height: 18px;
+              padding-top: 2px;
+              padding-bottom: 2px;
+              overflow: hidden;
+              display: inline-block;
+              background-color: #ff4302;
+              border-radius: 2px;
+              padding: 0 6px;
+              color: #fff;
+              font-size: 13px;
+              line-height: 18px; }
+            #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b .cx-r {
+              float: right;
+              margin-right: 15px;
+              color: #a92112;
+              font-size: 18px; }
+              #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b .cx-r .cxb-c {
+                color: #a92112;
+                font-size: 18px; }
+              #main .zhonchou .zccont .zct-b .zcbl .zcbl-b .cx-b .cx-r .cxb-d {
+                font-size: 11px; }
+      #main .zhonchou .zccont .zct-b .zcbl-a {
+        width: 266px;
+        height: 245px;
+        background-color: #eee;
+        margin-right: 5px;
+        position: relative; }
+        #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-t {
+          box-sizing: border-box;
+          padding: 30px 0 0 20px;
+          width: 537px;
+          height: 210px;
+          position: relative; }
+          #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-t .zcbl-t-a {
+            height: 20px;
+            line-height: 20px;
+            font-size: 20px;
+            color: #333;
+            width: 250px; }
+          #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-t .zcbl-t-b {
+            height: 20px;
+            line-height: 20px;
+            font-size: 16px;
+            margin-top: 8px;
+            color: #999;
+            width: 250px; }
+          #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-t .zcbl-t-c {
+            height: 28px;
+            line-height: 28px;
+            margin-top: 16px;
+            font-size: 24px;
+            color: #a92112; }
+            #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-t .zcbl-t-c .moy {
+              font-size: 15px;
+              margin-right: 7px; }
+        #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-tp {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          top: 70px;
+          right: 5px; }
+          #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-tp img {
+            width: 130px;
+            height: 130px;
+            vertical-align: middle; }
+        #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b {
+          width: 100%;
+          height: 35px;
+          background: #fff; }
+          #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .caixian {
+            height: 3px;
+            background: url(../images/caixian.jpg) no-repeat center; }
+          #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b {
+            margin-top: 10px; }
+            #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b .cxb-a {
+              float: left;
+              color: #999;
+              font-size: 15px;
+              margin-left: 20px; }
+              #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b .cxb-a .cxb-aa {
+                margin-right: 6px;
+                color: #a92112;
+                font-size: 18px; }
+            #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b .cxb-b {
+              float: left;
+              text-align: center;
+              height: 18px;
+              padding-top: 2px;
+              padding-bottom: 2px;
+              overflow: hidden;
+              display: inline-block;
+              background-color: #ff4302;
+              border-radius: 2px;
+              padding: 0 6px;
+              color: #fff;
+              font-size: 13px;
+              line-height: 18px; }
+            #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b .cx-r {
+              float: right;
+              margin-right: 15px;
+              color: #a92112;
+              font-size: 18px; }
+              #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b .cx-r .cxb-c {
+                color: #a92112;
+                font-size: 18px; }
+              #main .zhonchou .zccont .zct-b .zcbl-a .zcbl-b .cx-b .cx-r .cxb-d {
+                font-size: 11px; }
+      #main .zhonchou .zccont .zct-b .zcbl-b {
+        width: 266px;
+        height: 245px;
+        background-color: #eee;
+        margin-right: 5px;
+        position: relative; }
+        #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-t {
+          box-sizing: border-box;
+          padding: 30px 0 0 20px;
+          width: 537px;
+          height: 210px;
+          position: relative; }
+          #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-t .zcbl-t-a {
+            height: 20px;
+            line-height: 20px;
+            font-size: 20px;
+            color: #333;
+            width: 250px; }
+          #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-t .zcbl-t-b {
+            height: 20px;
+            line-height: 20px;
+            font-size: 16px;
+            margin-top: 8px;
+            color: #999;
+            width: 250px; }
+          #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-t .zcbl-t-c {
+            height: 28px;
+            line-height: 28px;
+            margin-top: 16px;
+            font-size: 24px;
+            color: #a92112; }
+            #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-t .zcbl-t-c .moy {
+              font-size: 15px;
+              margin-right: 7px; }
+        #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-tp {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          top: 70px;
+          right: 5px; }
+          #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-tp img {
+            width: 130px;
+            height: 130px;
+            vertical-align: middle; }
+        #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b {
+          width: 100%;
+          height: 35px;
+          background: #fff; }
+          #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .caixian {
+            height: 3px;
+            background: url(../images/caixian.jpg) no-repeat center; }
+          #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b {
+            margin-top: 10px; }
+            #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b .cxb-a {
+              float: left;
+              color: #999;
+              font-size: 15px;
+              margin-left: 20px; }
+              #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b .cxb-a .cxb-aa {
+                margin-right: 6px;
+                color: #a92112;
+                font-size: 18px; }
+            #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b .cxb-b {
+              float: left;
+              text-align: center;
+              height: 18px;
+              padding-top: 2px;
+              padding-bottom: 2px;
+              overflow: hidden;
+              display: inline-block;
+              background-color: #ff4302;
+              border-radius: 2px;
+              padding: 0 6px;
+              color: #fff;
+              font-size: 13px;
+              line-height: 18px; }
+            #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b .cx-r {
+              float: right;
+              margin-right: 15px;
+              color: #a92112;
+              font-size: 18px; }
+              #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b .cx-r .cxb-c {
+                color: #a92112;
+                font-size: 18px; }
+              #main .zhonchou .zccont .zct-b .zcbl-b .zcbl-b .cx-b .cx-r .cxb-d {
+                font-size: 11px; }
+
+#main .sp .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-rm .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-rm .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-rm .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-rm .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-rm .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-rm .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-rm .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-rm .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-rm .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-rm .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-rm .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-rm .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-rm .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-rm .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-jj .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-jj .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-jj .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-jj .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-jj .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-jj .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-jj .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-jj .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-jj .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-jj .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-jj .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-jj .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-jj .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-jj .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-jd .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-jd .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-jd .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-jd .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-jd .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-jd .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-jd .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-jd .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-jd .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-jd .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-jd .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-jd .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-jd .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-jd .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-sj .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-sj .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-sj .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-sj .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-sj .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-sj .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-sj .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-sj .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-sj .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-sj .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-sj .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-sj .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-sj .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-sj .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-zn .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-zn .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-zn .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-zn .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-zn .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-zn .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-zn .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-zn .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-zn .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-zn .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-zn .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-zn .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-zn .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-zn .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-fs .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-fs .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-fs .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-fs .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-fs .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-fs .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-fs .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-fs .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-fs .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-fs .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-fs .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-fs .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-fs .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-fs .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-yy .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-yy .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-yy .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-yy .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-yy .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-yy .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-yy .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-yy .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-yy .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-yy .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-yy .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-yy .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-yy .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-yy .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-cc .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-cc .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-cc .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-cc .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-cc .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-cc .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-cc .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-cc .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-cc .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-cc .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-cc .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-cc .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-cc .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-cc .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#main .sp-bjb .spcont {
+  width: 1080px;
+  margin: 0 auto; }
+  #main .sp-bjb .spcont .sp-t {
+    height: 117px;
+    padding-top: 43px;
+    box-sizing: border-box;
+    position: relative; }
+    #main .sp-bjb .spcont .sp-t h3 {
+      height: 74px;
+      font-size: 28px;
+      line-height: 74px;
+      color: #333;
+      font-weight: 400; }
+      #main .sp-bjb .spcont .sp-t h3 span {
+        font-size: 14px;
+        color: #666;
+        margin-left: 8px; }
+    #main .sp-bjb .spcont .sp-t .mor {
+      position: absolute;
+      right: 0;
+      top: 74px; }
+      #main .sp-bjb .spcont .sp-t .mor .mori {
+        font-size: 14px;
+        position: relative;
+        bottom: 9px;
+        color: #999; }
+      #main .sp-bjb .spcont .sp-t .mor .myicon {
+        background-image: url(../images/yp-icons.2bf57ccf.png);
+        width: 30px;
+        height: 30px;
+        background-position: 0 -1118px;
+        display: inline-block; }
+  #main .sp-bjb .spcont .sp-b {
+    width: 1080px;
+    display: flex;
+    overflow: hidden; }
+    #main .sp-bjb .spcont .sp-b .spb-lis {
+      width: 266px;
+      height: 370px;
+      margin-right: 8px; }
+      #main .sp-bjb .spcont .sp-b .spb-lis .spb-t {
+        margin-bottom: 9px;
+        width: 266px;
+        height: 266px; }
+        #main .sp-bjb .spcont .sp-b .spb-lis .spb-t img {
+          width: 266px;
+          height: 266px;
+          border: none; }
+      #main .sp-bjb .spcont .sp-b .spb-lis .tit-a {
+        height: 31px;
+        line-height: 31px;
+        font-size: 18px;
+        text-align: center;
+        color: #333; }
+      #main .sp-bjb .spcont .sp-b .spb-lis .tit-b {
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        text-align: center;
+        color: #666; }
+      #main .sp-bjb .spcont .sp-b .spb-lis .tit-c {
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+        text-align: center;
+        color: #b12112; }
+
+#foot {
+  width: 100%;
+  padding-top: 65px; }
+  #foot .fcont {
+    border-top: 1px solid #e7e7e7;
+    height: 135px; }
+    #foot .fcont .fbox {
+      width: 1080px;
+      height: 135px;
+      margin: 0 auto; }
+      #foot .fcont .fbox .fb-l {
+        float: left; }
+        #foot .fcont .fbox .fb-l .fbl-logo {
+          background: url(../images/ftlogo.png) no-repeat center;
+          width: 116px;
+          height: 31px;
+          margin-left: 5px;
+          margin-top: 53px;
+          float: left; }
+        #foot .fcont .fbox .fb-l .fbl-tit {
+          font-size: 12px;
+          line-height: 135px;
+          color: #666;
+          margin-left: 29px;
+          float: left; }
+      #foot .fcont .fbox .fb-c {
+        float: left;
+        font-size: 12px;
+        line-height: 24px;
+        color: #666;
+        margin-top: 45px;
+        margin-left: 80px; }
+        #foot .fcont .fbox .fb-c a {
+          margin-left: 5px; }
+        #foot .fcont .fbox .fb-c .te {
+          color: #845f3f; }
+      #foot .fcont .fbox .fb-r {
+        width: 99px;
+        height: 36px;
+        margin-top: 49px;
+        float: right;
+        background: url(../images/ftlogo2.png) no-repeat center; }

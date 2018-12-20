@@ -1,0 +1,159 @@
+// top
+#top{
+    width: 100%;height: 48px;background: #333;font-size: 14px;color: #e7e7e7;position: relative;
+    .juz{
+        width: 1080px;height: 48px;margin: 0 auto;
+        .fl{float: right;
+            .user{height: 48px;width: 86px;float: left;line-height: 48px;
+                a{color: #e7e7e7;margin-left: 2px;}
+            }
+            .suxian{height: 16px;width: 1px;float: left;border-right: #666 solid 1px;vertical-align: middle;margin-top: 17px;}
+            .help{height: 48px;width: 58px;float: left;padding: 0 14px;line-height: 48px;
+                a{color: #e7e7e7;}
+            }
+            .down{height: 48px;width: 118px;float: left;line-height: 48px;position: relative;
+                .myicon{position: absolute;width: 30px;height: 30px;left: 0;top: 9px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -1016px;}
+                a{color: #e7e7e7;margin-left: 38px;}
+            }
+        }
+    }
+}
+
+// header
+#header{width:100%;height: 51px;position: relative;padding-top:20px;margin-bottom: 5px;background: #fff;
+    .juz{
+        width: 1080px;height: 51px;margin: 0 auto;position: relative;
+        .logo{float: left;width: 123px;height: 51px;background: url(../images/logo.d1484e61.png);background-size: 100%;}
+        .tablist{float: left;width: 420px;margin-left:140px;
+            li{float: left;margin-right: 32px;height: 51px;line-height: 51px;font-size: 18px;
+                a{color: #666;}
+            }
+
+        }
+        .search{width: 296px;float: right;margin-right:40px;position: relative;
+            .cont{width: 282px;border-bottom: 1px solid #666;height: 42px;position: relative;
+                .myicon{position: absolute;width: 30px;height: 30px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -1458px;display: block;top: 10px;left: -4px;}
+                .seform{width: 245px;height: 28px;position: absolute;left: 40px;padding-top: 14px;
+                    input{border: none;font-size: 14px;outline: 0;color: #666;}
+                }
+            }
+            .xiala{
+                position: absolute;z-index: 10;background-color:#fff;width:282px;
+                li{
+                    text-align: center;height: 30px;color:#333;font-size: 14px;line-height:30px;cursor: pointer;
+                    &:hover{
+                        background-color: #845f3f;color: #fff;
+                    }
+                }
+            }
+        }
+        .car{cursor:pointer;width: 30px;height: 30px;position: absolute;right: 6px;background-image: url(../images/yp-icons.2bf57ccf.png);background-position: 0 -948px;display: inline-block;top: 18px}
+    }
+}
+#main{
+    width: 100%;background-color: #e7e7e7;min-height: 600px;
+    .cont{
+        width: 1080px;margin: 0 auto;padding: 30px 0;
+        .btl{
+            padding: 30px 0 15px 0; font-size: 13px;color:#333;cursor: pointer;
+            .btl-r{
+                color: #999;cursor: pointer;
+            }
+        }
+        .tit{
+            background-color: gray;
+            .spxx{
+                display: inline-block;width: 300px;height: 40px;line-height: 40px;text-align:center;
+            }
+            .dj{
+                display: inline-block;width: 140px;height: 40px;line-height: 40px;text-align:center;
+            }
+            .sl{
+                display: inline-block;width: 230px;height: 40px;line-height: 40px;text-align:center;
+            }
+            .je{
+                display: inline-block;width: 140px;height: 40px;line-height: 40px;text-align:center;
+            }
+            .cz{
+                display: inline-block;width: 100px;height: 40px;line-height: 40px;text-align:center;
+            }
+        }
+        .list{
+            background-color:#fff;
+            .list-item{
+                height: 140px;font-size: 14px;border-bottom:1px solid #999;
+                .lspxx{
+                    float: left;width: 300px;height:140px;
+                    p{
+                        font-size: 14px;line-height: 140px;color: #333;float: left;margin-left: 30px;height: 140px;
+                        width: 100px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;
+                    }
+                    img{
+                        width: 100px;height: 100px;border: none;vertical-align: middle;float: left;margin-top: 20px;
+                    }
+                }
+                .ldj{
+                    float: left;line-height: 140px;text-align: center;display: inline-block;width: 140px;
+                }
+                .lsl{
+                    float: left;line-height: 140px;width: 250px;text-align: center;
+                    input{
+                        text-align: center;width: 110px;height: 25px;
+                    }
+                }
+                .lje{
+                    float: left;line-height: 140px;width: 140px;text-align: center;color: #a90000;
+                }
+                .lcz{
+                    float: left;line-height: 140px;width: 100px;text-align: center;cursor: pointer;
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// foot
+#foot{
+    width: 100%;
+    padding-top: 65px;
+    .fcont{
+        border-top: 1px solid #e7e7e7;height: 135px;
+        .fbox{
+            width: 1080px;height: 135px;margin: 0 auto;
+            .fb-l{
+                float: left;
+                .fbl-logo{
+                    background: url(../images/ftlogo.png) no-repeat center;width: 116px;height: 31px;margin-left: 5px;margin-top: 53px;float: left;
+                }
+                .fbl-tit{
+                    font-size: 12px;line-height: 135px;color: #666;margin-left: 29px;float: left;
+                }
+            }
+            .fb-c{float: left;font-size: 12px;line-height: 24px;color: #666;margin-top: 45px;margin-left: 80px;
+                a{margin-left: 5px;}
+                .te{color: rgb(132, 95, 63);}
+            }
+            .fb-r{
+                width: 99px;height: 36px;margin-top: 49px;float: right;background: url(../images/ftlogo2.png) no-repeat center;
+            }
+        }
+    }
+}
